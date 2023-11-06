@@ -4,9 +4,6 @@ ion-header {
             background: var(--ion-color-light);
             width: 30px;
             height: 30px;
-            // display: flex;
-            // justify-content: center;
-            // align-items: center;
             
         }
         ion-title {
@@ -46,3 +43,44 @@ ion-header {
         }
     }
 }
+
+
+ion-content{
+
+    div.topic {
+        font-size: 25px;
+        margin: 0 10px;
+    }
+
+    ion-grid{
+        margin: 2vh 10px 0 5px;
+        ion-row{
+            ion-col {
+                padding: 0 !important;
+                ion-card{
+                    border: 0.001vh solid var(--ion-color-medium);
+                    // border-radius: 0;
+                    height: 100px;
+                    width: 100%;
+                    margin: 0 !important;
+                    padding: 0 !important;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    ion-label {
+                        font-size: 0.7rem;
+                        font-weight: 600;
+                        margin-top: 5px;
+                    }
+                    ion-thumbnail{
+                        height : 7vh;
+                    }
+
+                }
+            }
+        }
+    }
+
+}
+  
